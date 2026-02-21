@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div class="logo">MyApp</div>
+
+        <div class="top-right">
+            <span class="user-title">USER VIEW</span>
+            <button class="logout-btn" onclick="logout()">Logout</button>        
+        </div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>User Menu</h3>
+            <ul>
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">My Services</a></li>
+                <li><a href="#">My Orders</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h2>Welcome, User</h2>
+            <p>This is your dashboard.</p>
+            <p>You can manage your profile and view your services here.</p>
+        </div>
+
+    </div>
+<script src="./logout.js"></script>
+</body>
+</html>

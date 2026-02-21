@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div class="logo">MyApp</div>
+
+        <div class="top-right">
+            <span class="admin-title">ADMIN VIEW</span>
+            <button class="logout-btn" onclick="logout()">Logout</button>        
+        </div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="dashboard">
+
+        <!-- Left Navigation -->
+        <div class="sidebar">
+            <h3>Admin Menu</h3>
+            <ul>
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Content Area -->
+        <div class="content">
+            <h2>Welcome, Admin</h2>
+            <p>This is the admin dashboard.</p>
+            <p>You can manage users, services, and settings from the left menu.</p>
+        </div>
+
+    </div>
+<script src="./logout.js"></script>
+</body>
+</html>
